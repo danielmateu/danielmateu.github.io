@@ -1,0 +1,73 @@
+
+header{
+    .btn{
+        
+        background-color: #ffe4ca;
+        transition: all 1s;
+        
+    }
+    .btn:hover{
+        background-color: #5c3a2e;
+    }
+}
+
+
+
+article {
+    background-image: url(../img/pexels-dimitri-weber.jpg);
+    height:max-content;
+    background-position-y: 80%;
+    background-position-x: 85%;
+    opacity: .8;
+    
+
+    .btn{
+        margin-top: 25%;
+        background-color: #ffe4ca;
+        transition: all 1s;
+        
+    }
+    .btn:hover{
+        background-color: #5c3a2e;
+    }
+    
+}
+
+footer{
+    a{
+        color: #ffe4ca ;
+        transition: all .8s;
+    }
+
+    a:hover{
+        color: #978574;
+    }
+
+    img{
+        transition: 1s;
+    }
+    img:hover{
+        
+        scale: 1.5;
+    }
+}
+
+.background{
+    opacity: .5;
+    width: 80%;
+}
+
+.card-group:nth-child(2){
+    margin: 15px;
+}
+
+.formulario{
+   
+    height: auto;
+    background-position-y: 80%;
+    background-position-x: 85%;
+    opacity: .8;
+    background-repeat: no-repeat;
+    scale: 2;
+    position: relative
+}

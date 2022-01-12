@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./sass/styles.css" />
+    <link rel="shortcut icon" href="./img/van.png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <title>formulario</title>
+  </head>
+  <body class="container-fluid">
+    <header class="header row">
+      <div class="col-12">
+        <nav class="d-flex navbar navbar-light navbar-expand-md ">
+          <div class="container-fluid">
+            <a
+              class="
+                navbar-brand
+                d-flex
+                align-items-center
+                justify-content-center
+              "
+              href="index.html"
+            >
+              <img
+                src="./img/van.png"
+                alt="icono"
+                width="60"
+                height="48"
+                class="d-inline-block align-text-top"
+              />
+              <span class="m-2"> mundo camper </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="offcanvasNavbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Te interesa?
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="offcanvasNavbarDropdown"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#">Pide Presupuesto</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Do it yourself</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="formulario.html">¿Necestias ayuda?</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Search"
+                  />
+                
+                  <button
+                   type="button"
+                   class="btn btn-outline-light text-secondary  col-lg-5">
+                  <a href="formulario.html" style="text-decoration: none;" class="h6 text-muted d-flex align-items-center justify-content-center" type="submit" target="_blank">contacta</a>
+                  </button>
+                
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section row"> 
+        <div class="col-12" >
+
+          <img src="./img/VW California.jpeg" alt="" class="img-fluid rounded mb-2 col-12 opacity-75">
+            
+        </div>
+
+        
+        <div class="col-8 col-md-4 col-lg-3 m-2 bg-transparent rounded position-absolute">
+                    <div class="mb-3 ">
+                        <label for="exampleFormControlInput1" class="form-label">escribe tu mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">en qué te podemos ayudar?</label>
+                        <textarea class="form-control height-4" id="exampleFormControlTextarea1" ></textarea>
+                    </div>
+        </div>
+
+    </section>
+
+    <footer class="row">
+      <div class="col-12 bg-dark " style="z-index: 4; line-height-step: max-content;" >
+        <div class="row d-flex align-items-center justify-content-center ">
+          <div class=" social col-12 d-flex align-items-center justify-content-center
+          mt-2 
+          "
+        >
+          <a href="#"
+            ><img src="./img/icon-youtube.svg" alt="youtube" class="m-1"
+          /></a>
+          <a href="#"
+            ><img src="./img/icon-instagram.svg" alt="instagram" class="m-1"
+          /></a>
+          <a href="#"
+            ><img src="./img/icon-twitter.svg" alt="twitter" class="m-1"
+          /></a>
+          <a href="#"
+            ><img src="./img/icon-pinterest.svg" alt="pinterest" class="m-1"
+          /></a>
+          <a href="#"
+            ><img src="./img/icon-facebook.svg" alt="facebook" class="icon m-1"
+          /></a>
+        </div> 
+        <div class="signature col-12 text-white d-flex align-items-center justify-content-center" >
+          
+            designed-<a href="#">©nukpeluk designs </a> 
+          
+          
+        </div>
+        <div class="tribute col-12 d-flex
+              align-items-center
+              justify-content-center
+              text-white
+              
+            "
+          >
+            icons-
+            <a
+              href="https://www.flaticon.com/authors/linector"
+              title="Linector"
+            >
+              Linector
+            </a>
+            from
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com
+            </a>
+        </div>
+
+        <div class="tribute col-12 d-flex align-items-center justify-content-center text-white mb-2">
+           main picture-<a href="#">©Dimitri Weber</a>
+        </div>
+        </div>
+        
+        
+      </div>
+
+     
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
