@@ -1,0 +1,1 @@
+var relax = new Rellax ('.rellax');
