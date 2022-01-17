@@ -127,7 +127,7 @@ section#content{
 
 .parallax-completo{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-image: url(./img/pexels-s-migaj-747964.jpg);
     background-position:center;
     background-size: cover;
@@ -176,7 +176,7 @@ p{
 
 .parallax-mid{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-image: url(./img/pexels-flo-maderebner-869258.jpg);
     background-position:center;
     background-size: cover;
