@@ -40,8 +40,24 @@ nav ul:not(:last-child){
 nav ul li a{
     text-decoration: none;
     color:black;
-    margin:10px;
+    margin: 20px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
+
+nav ul li a:hover{
+    background-color:rgba(153, 152, 152, 0.6);
+    color:white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 
 /*---------FIN NAV------------*/
 
