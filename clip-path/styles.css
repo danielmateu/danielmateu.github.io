@@ -18,11 +18,21 @@ body {
 }
 
 .header {
+    margin-top:100px;
     width: 75%;
     padding: 40px;
     background-color: #e9e8e9;
-    -webkit-box-shadow: 0px 5px 10px -3px #000000; 
-        box-shadow: 0px 5px 10px -3px #000000;
+    -webkit-box-shadow: 0px 5px 10px -3px #000000;
+    box-shadow: 0px 5px 10px -3px #000000;
+    transition:ease-in 0.2s;
+    -webkit-transition:ease-in 0.2s;
+    -moz-transition:ease-in 0.2s;
+    -ms-transition:ease-in 0.2s;
+    -o-transition:ease-in 0.2s;
+}
+
+.header:hover{
+    box-shadow: 0px 1px 5px -3px #000000;
 }
 
 .titulo{
@@ -40,7 +50,78 @@ body {
 
 
 
+/*--------MEN DE NAVEGACION--------*/
 
+.contenedor-menu{
+    background-color: #366962;
+    color: #fff;
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: 100;
+    text-align: center;
+    top: 0;
+    /*Aplicamos clip path*/
+    clip-path: circle(10% at 50% 0%);
+    
+}
+
+.btn-abrir-menu{
+    font-size:40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-abrir-menu:hover{
+    animation:rotar 1.5s alternate;
+    -webkit-animation:rotar 1.5s alte;
+}
+
+@keyframes rotar {
+    0%{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); ; -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+    20%{ transform:rotate(10deg); -webkit-transform:rotate(10deg); -moz-transform:rotate(10deg); -ms-transform:rotate(10deg); -o-transform:rotate(10deg); -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+    40%{ transform:rotate(-15deg); -webkit-transform:rotate(-15deg); -moz-transform:rotate(-15deg); -ms-transform:rotate(-15deg); -o-transform:rotate(-15deg); -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+    60%{ transform:rotate(15deg); -webkit-transform:rotate(15deg); -moz-transform:rotate(15deg); -ms-transform:rotate(15deg); -o-transform:rotate(15deg); -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+    80%{ transform:rotate(-10deg); -webkit-transform:rotate(-10deg); -moz-transform:rotate(-10deg); -ms-transform:rotate(-10deg); -o-transform:rotate(-10deg); -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+    100%{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); ; -webkit-transform:rotate; -moz-transform:rotate; -ms-transform:rotate; -o-transform:rotate; }
+
+}
+
+.elementos-navegacion{
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.elementos-navegacion li{
+    list-style:none;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
+.elementos-navegacion li a{
+    text-decoration:none;
+    font-size: 40px;
+    letter-spacing:2px;
+    padding: 15px 30px;
+    color:#f8f8f8;
+    text-transform: uppercase;
+    transition: ease .2s;
+    -webkit-transition: ease .2s;
+    -moz-transition: ease .2s;
+    -ms-transition: ease .2s;
+    -o-transition: ease .2s;
+}
+
+.elementos-navegacion li a:hover{
+    color: #535353;
+}
 
 
 /* ! ====== Elnaces de interés ====== !
