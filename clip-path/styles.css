@@ -1,3 +1,52 @@
-/*
-https://www.youtube.com/watch?v=j5GxE2ySqV0
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 90px;
+    color: #535353;
+    min-height:1500px;
+}
+
+.container {
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        
+}
+
+.header {
+    width: 75%;
+    padding: 40px;
+    background-color: #e9e8e9;
+    -webkit-box-shadow: 0px 5px 10px -3px #000000; 
+        box-shadow: 0px 5px 10px -3px #000000;
+}
+
+.titulo{
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    display:flex;
+    justify-content:center;margin-bottom:10px
+}
+
+.texto-introduccion{
+    font-size:25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* ! ====== Elnaces de interés ====== !
+
+*https://www.youtube.com/watch?v=j5GxE2ySqV0
+*https://bennettfeely.com/clippy/
+
+
 */
