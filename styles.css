@@ -38,17 +38,15 @@ p {
 }
 /*PARALLAX*/
 
-.espacio{
-    padding: 50px 0;
-    
+.espacio h1{
+    text-align: center;
+    margin-top: 160px;
     
 }
 
-
-
 .espacio h2{
     text-align: center;
-    padding-top:60px;
+    padding:10px;
     
 }
 
